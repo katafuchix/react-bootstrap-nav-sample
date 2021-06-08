@@ -1,8 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
-import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
+//import styled from 'styled-components';
+//import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-
+/*
 const GridWrapper = styled.div`
   display: grid;
   grid-gap: 10px;
@@ -12,7 +12,7 @@ const GridWrapper = styled.div`
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: minmax(25px, auto);
 `;
-
+*/
 
 export default class About extends React.Component {
 //function About() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import * as ReactBootStrap from "react-bootstrap";
+//import * as ReactBootStrap from "react-bootstrap";
 import DankMemes from "./Components/DankMemes";
 import Features from "./Components/Features";
 import Pricing from "./Components/Pricing";
@@ -9,12 +9,12 @@ import NavBar from "./Components/Navbar"
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route //, Link
 } from "react-router-dom";
 import Home from './Components/Home'
 import About from './Components/About'
 import PersonList from './Components/PersonList'
+import GravureList from './Components/GravureList'
 
 function App() {
   return (
@@ -51,6 +51,9 @@ function App() {
           </Route>
           <Route path="/person">
               <PersonList />
+          </Route>
+          <Route path="/gravure">
+              <GravureList />
           </Route>
         </Switch>
     </Router>

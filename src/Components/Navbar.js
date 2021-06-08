@@ -1,21 +1,17 @@
 import React from 'react';
-import * as ReactBootStrap from "react-bootstrap";
+//import * as ReactBootStrap from "react-bootstrap";
 import {
     BrowserRouter as Router,
-    Link,
-    Switch,
-    Route,
-    useParams,
+    //useParams,
   } from "react-router-dom";
 
-import { Navbar,Nav,NavDropdown,Form,FormControl,Button } from 'react-bootstrap'
-import Home from './Home'
+import { Navbar,Nav,NavDropdown/*,Form,FormControl,Button*/ } from 'react-bootstrap'
 
 const NavBar = () => {
 
   return(
       <div>
-          <div className="row" class='fixed-top'>
+          <div className="row fixed-top">
               <div className="col-md-12">
                   <Router>
                       <Navbar bg="dark" variant="dark" expand="sm" sticky="top">
@@ -26,6 +22,7 @@ const NavBar = () => {
                               <Nav.Link href="/">Home</Nav.Link>
                               <Nav.Link href="/about-us">Contact Us</Nav.Link>
                               <Nav.Link href="/contact-us">About Us</Nav.Link>
+                              <Nav.Link href="/gravure">GravureList</Nav.Link>
                               <Nav.Link href="/person">PersonList</Nav.Link>
                               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
